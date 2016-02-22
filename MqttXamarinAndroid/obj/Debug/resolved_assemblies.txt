@@ -1,0 +1,13 @@
+C:\Users\QuachHoang\Documents\Projects\MqttXamarinAndroid\MqttXamarinAndroid\obj\Debug\assemblies\MqttXamarinAndroid.dll
+C:\Users\QuachHoang\Documents\Projects\MqttXamarinAndroid\MqttXamarinAndroid\obj\Debug\assemblies\M2Mqtt.Net.dll
+C:\Users\QuachHoang\Documents\Projects\MqttXamarinAndroid\MqttXamarinAndroid\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\QuachHoang\Documents\Projects\MqttXamarinAndroid\MqttXamarinAndroid\obj\Debug\assemblies\mscorlib.dll
+C:\Users\QuachHoang\Documents\Projects\MqttXamarinAndroid\MqttXamarinAndroid\obj\Debug\assemblies\System.Core.dll
+C:\Users\QuachHoang\Documents\Projects\MqttXamarinAndroid\MqttXamarinAndroid\obj\Debug\assemblies\System.dll
+C:\Users\QuachHoang\Documents\Projects\MqttXamarinAndroid\MqttXamarinAndroid\obj\Debug\assemblies\System.Xml.dll
+C:\Users\QuachHoang\Documents\Projects\MqttXamarinAndroid\MqttXamarinAndroid\obj\Debug\assemblies\Xamarin.Android.Support.v4.dll
+C:\Users\QuachHoang\Documents\Projects\MqttXamarinAndroid\MqttXamarinAndroid\obj\Debug\assemblies\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\QuachHoang\Documents\Projects\MqttXamarinAndroid\MqttXamarinAndroid\obj\Debug\assemblies\Xamarin.Insights.dll
+C:\Users\QuachHoang\Documents\Projects\MqttXamarinAndroid\MqttXamarinAndroid\obj\Debug\assemblies\System.Runtime.Serialization.dll
+C:\Users\QuachHoang\Documents\Projects\MqttXamarinAndroid\MqttXamarinAndroid\obj\Debug\assemblies\System.ServiceModel.Internals.dll
+C:\Users\QuachHoang\Documents\Projects\MqttXamarinAndroid\MqttXamarinAndroid\obj\Debug\assemblies\System.Net.Http.dll
