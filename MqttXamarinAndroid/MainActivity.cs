@@ -68,12 +68,26 @@ namespace MqttXamarinAndroid
 					
 				}
 			};
+
+			bttPub.Click += (object sender, EventArgs e) => {
+				try {
+					if(edtTopic.Text != null || edtTopic.Text.Length > 0 || edtMessage.Text != null || edtMessage.Text.Length > 0 ){
+						if(mqttClient!=null && mqttClient.IsConnected){
+							mqttClient.Publish(edtTopic.Text,System.Text.Encoding.UTF8.GetBytes( edtMessage.Text));
+							txtResult.Text = "publish message "+edtTopic.Text+" to topic "+edtTopic.Text+" ok";
+						}
+					}else{
+						Toast.MakeText (this, "topic or message wrong", ToastLength.Short).Show();
+					}
+				} catch (Exception ex) {
+					
+				}
+			};
 		}
 
 		private void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
 		{
 			string result = System.Text.Encoding.UTF8.GetString(e.Message);
-
 			RunOnUiThread (() => {
 				txtResult.Text = "Receiver message: "+result;
 			});
@@ -81,7 +95,9 @@ namespace MqttXamarinAndroid
 
 		private void client_ConnectionClosedEvent (object sender, EventArgs e)
 		{
-			txtResult.Text = "Connection lost";
+			RunOnUiThread (() => {
+				txtResult.Text = "Connection lost";
+			});
 		}
 
 		private void ConnectServer()
