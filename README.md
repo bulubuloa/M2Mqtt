@@ -1,4 +1,6 @@
-# MqttXamarinAndroid
+# M2Mqtt
+
+- Can use for Xamarin.Android, Xamarin.iOS, Xamarin.Forms App and another .net client
 
 - Mqtt library: https://eclipse.org/paho/clients/dotnet/
 
